@@ -1,0 +1,11 @@
+# project.toml
+[_]
+schema-version = "0.2"
+
+[[io.buildpacks.build.env]]
+name = "BP_CPYTHON_VERSION"
+value = "3.10.*"
+
+# Examples:
+# value = "3.10.*"
+# value = "3.12.*"
